@@ -1,0 +1,248 @@
+{
+  "produto": [
+    {
+      "idProduto": "0001",
+      "marca": "Thermaltake",
+      "modelo": "MO-LTM009DT",
+      "Categoria": "Gamer",
+      "preco": 732.90,
+      "descricao": "Mouse Gamer Laser Thermaltake eSports Diamond Black",
+      "resolucao": "8200dpi",
+      "tamanho": [ "pequeno", "medio", "grande" ],
+      "cores": [ "preto", "branco", "cinza", "azul", "cammo" ]
+    },
+    {
+      "idProduto": "0002",
+      "marca": "Oex",
+      "modelo": "MS-301",
+      "Categoria": "Gamer",
+      "preco": 50.90,
+      "descricao": "Mouse Oex Energy",
+      "resolucao": "5000dpi",
+      "tamanho": [ "pequeno", "medio", "grande" ],
+      "cores": [ "preto", "branco", "cinza", "azul", "cammo" ]
+    },
+    {
+      "idProduto": "0003",
+      "marca": "Logitech",
+      "modelo": "M90",
+      "categoria": "Com Fio",
+      "preco": 34.90,
+      "descricao": "Mouse Logitech",
+      "resolucao": "1000dpi",
+      "tamanho": [ "pequeno", "medio", "grande" ],
+      "cores": [ "preto", "branco", "cinza", "azul", "cammo" ]
+    },
+    {
+      "idProduto": "0004",
+      "marca": "HP",
+      "modelo": "4QM14AA",
+      "categoria": "Com Fio",
+      "preco": 40.90,
+      "descricao": "Mouse 1000 HP",
+      "resolucao": "1000dpi",
+      "tamanho": [ "pequeno", "medio", "grande" ],
+      "cores": [ "preto", "branco", "cinza", "azul", "cammo" ]
+    },
+    {
+      "idProduto": "0004",
+      "marca": "HP",
+      "modelo": "4QM14AA",
+      "categoria": "Com Fio",
+      "preco": 40.90,
+      "descricao": "Mouse 1000 HP",
+      "resolucao": "1000dpi",
+      "tamanho": [ "pequeno", "medio", "grande" ],
+      "cores": [ "preto", "branco", "cinza", "azul", "cammo" ]
+    },
+    {
+      "idProduto": "0005",
+      "marca": "Fortrek",
+      "modelo": "OM-103",
+      "categoria": "Com fio",
+      "preco": 29.90,
+      "descricao": "Mouse Óptico Fortrek 1600dpi USB",
+      "resolucao": "1600dpi",
+      "tamanho": [ "pequeno", "medio", "grande" ],
+      "cores": [ "preto", "branco", "cinza", "azul", "cammo" ]
+    }
+    {
+      "idProduto": "0006",
+      "marca": "Microsoft",
+      "modelo": "4FD-00025",
+      "categoria": "Com fio",
+      "preco": 97.53,
+      "descricao": "Mouse Óptico Microsoft Comfort 4500 USB",
+      "resolucao": "4500dpi",
+      "tamanho": [ "pequeno", "medio", "grande" ],
+      "cores": [ "preto", "branco", "cinza", "azul", "cammo" ]
+    }
+    {
+      "idProduto": "0007",
+      "marca": "Bright",
+      "modelo": "02210",
+      "categoria": "Com fio",
+      "preco": 21.90,
+      "descricao": "Mouse Bright USB",
+      "resolucao": "1000dpi",
+      "tamanho": [ "pequeno", "medio", "grande" ],
+      "cores": [ "preto", "branco", "cinza", "azul", "cammo" ]
+    }
+    {
+      "idProduto": "0008",
+      "marca": "C3 Tech",
+      "modelo": "M-W20BK",
+      "categoria": "Sem fio",
+      "preco": 36.90,
+      "descricao": "Mouse C3 Tech Sem Fio USB",
+      "resolucao": "1000dpi",
+      "tamanho": [ "pequeno", "medio", "grande" ],
+      "cores": [ "preto", "branco", "cinza", "azul", "cammo" ]
+    }
+    {
+      "idProduto": "0009",
+      "marca": "Logitech",
+      "modelo": "M170",
+      "categoria": "Sem fio",
+      "preco": 59.90,
+      "descricao": "Mouse Logitech M170 Sem Fio",
+      "resolucao": "1000dpi",
+      "tamanho": [ "pequeno", "medio", "grande" ],
+      "cores": [ "preto", "branco", "cinza", "azul", "cammo" ]
+    }
+    {
+      "idProduto": "0010",
+      "marca": "Maxprint",
+      "modelo": "6012254",
+      "categoria": "Sem fio",
+      "preco": 32.90,
+      "descricao": "Mouse Óptico Maxprint s/Fio 5 Botões",
+      "resolucao": "1600dpi",
+      "tamanho": [ "pequeno", "medio", "grande" ],
+      "cores": [ "preto", "branco", "cinza", "azul", "cammo" ]
+    }
+    {
+      "idProduto": "0011",
+      "marca": "Microsoft",
+      "modelo": "U7Z-00018",
+      "categoria": "Sem fio",
+      "preco": 104.90,
+      "descricao": "Mouse Sem Fio Microsoft 1850",
+      "resolucao": "3000dpi",
+      "tamanho": [ "pequeno", "medio", "grande" ],
+      "cores": [ "preto", "branco", "cinza", "azul", "cammo" ]
+    }
+    {
+      "idProduto": "0012",
+      "marca": "HP",
+      "modelo": "200",
+      "categoria": "Sem fio",
+      "preco": 54.90,
+      "descricao": "Mouse HP Sem Fio 200 Oman",
+      "resolucao": "1000dpi",
+      "tamanho": [ "pequeno", "medio", "grande" ],
+      "cores": [ "preto", "branco", "cinza", "azul", "cammo" ]
+    }
+    {
+      "idProduto": "0013",
+      "marca": "Logitech",
+      "modelo": "M187",
+      "categoria": "Sem fio",
+      "preco": 74.90,
+      "descricao": "Mini Mouse Logitech M187 Sem Fio",
+      "resolucao": "1000dpi",
+      "tamanho": [ "pequeno", "medio", "grande" ],
+      "cores": [ "preto", "branco", "cinza", "azul", "cammo" ]
+    }
+    {
+      "idProduto": "0014",
+      "marca": "Fortrek",
+      "modelo": "BAP102",
+      "categoria": "Mouse Pad",
+      "preco": 19.90,
+      "descricao": "Mousepad Fortrek",
+      "resolucao": "",
+      "tamanho": [ "pequeno", "medio", "grande" ],
+      "cores": [ "preto", "branco", "cinza", "azul", "cammo" ]
+    }
+    {
+      "idProduto": "0015",
+      "marca": "Maxprint",
+      "modelo": "60448-4",
+      "categoria": "Mouse Pad",
+      "preco": 24.90,
+      "descricao": "Apoio de Pulso Maxprint Para Mouse, Gel",
+      "resolucao": "",
+      "tamanho": [ "pequeno", "medio", "grande" ],
+      "cores": [ "preto", "branco", "cinza", "azul", "cammo" ]
+    }
+    {
+      "idProduto": "0016",
+      "marca": "Oex",
+      "modelo": "MP300",
+      "categoria": "Mouse Pad",
+      "preco": 31.90,
+      "descricao": "Mousepad Gamer Oex Action Tecnologia AntiSkid",
+      "resolucao": "",
+      "tamanho": [ "pequeno", "medio", "grande" ],
+      "cores": [ "preto", "branco", "cinza", "azul", "cammo" ]
+    }
+    {
+      "idProduto": "0017",
+      "marca": "Bright",
+      "modelo": "307",
+      "categoria": "Mouse Pad",
+      "preco": 24.90,
+      "descricao": "Mousepad Bright com Apoio",
+      "resolucao": "",
+      "tamanho": [ "pequeno", "medio", "grande" ],
+      "cores": [ "preto", "branco", "cinza", "azul", "cammo" ]
+    }
+    {
+      "idProduto": "0017",
+      "marca": "Maxprint",
+      "modelo": "602295",
+      "categoria": "Mouse Pad",
+      "preco": 48.90,
+      "descricao": "Apoio de Pulso Maxprint para Teclado, Tecido, Gel",
+      "resolucao": "",
+      "tamanho": [ "pequeno", "medio", "grande" ],
+      "cores": [ "preto", "branco", "cinza", "azul", "cammo" ]
+    }
+    {
+      "idProduto": "0018",
+      "marca": "Multilaser",
+      "modelo": "MO216",
+      "categoria": "Sem Fio",
+      "preco": 41.90,
+      "descricao": "Mouse Sem Fio Multilaser",
+      "resolucao": "1200dpi",
+      "tamanho": [ "pequeno", "medio", "grande" ],
+      "cores": [ "preto", "branco", "cinza", "azul", "cammo" ]
+    }
+    {
+      "idProduto": "0019",
+      "marca": "Movitec",
+      "modelo": "OMW-03",
+      "categoria": "Sem Fio",
+      "preco": 55.90,
+      "descricao": "Mouse Sem Fio Movitec Office",
+      "resolucao": "1600dpi",
+      "tamanho": [ "pequeno", "medio", "grande" ],
+      "cores": [ "preto", "branco", "cinza", "azul", "cammo" ]
+    }
+    {
+      "idProduto": "0020",
+      "marca": "Logitech",
+      "modelo": "MX Anywhere 2S",
+      "categoria": "Sem Fio",
+      "preco": 269.90,
+      "descricao": "Mouse Logitech MX Anywhere 2S Sem Fio Recarregável Tecnologia Flow Unifying",
+      "resolucao": "1000dpi",
+      "tamanho": [ "pequeno", "medio", "grande" ],
+      "cores": [ "preto", "branco", "cinza", "azul", "cammo" ]
+    }
+  ]
+
+}
+
