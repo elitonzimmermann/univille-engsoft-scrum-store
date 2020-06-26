@@ -5,7 +5,7 @@ $(document).ready(async () => {
   // ? Filtra da lista de produtos apenas os que estão marcados como "Em destaque"
   window.produtosDestaque = await carregaProdutos(produto => produto.isDestaque);
 
-  mostraProdutos(window.produtosDestaque);
+  mostraProdutos(window.produtosDestaque, 'produtoDestaque');
 });
 
 async function iniciarPagina() {
@@ -47,12 +47,12 @@ function carregaProdutos(filtro) {
   });
 }
 
-function mostraProdutos(produtos) {
+function mostraProdutos(produtos, componente = 'produto') {
   // ? Verifica se o elemento existe
   if (!$('#produtos').length) return;
 
   produtos.forEach(async produto => {
-    let html = await getComponente('produtoDestaque');
+    let html = await getComponente(componente);
 
     html = html.replace(/\${idProduto}/g, produto.idProduto);
     html = html.replace(/\${nome}/g, produto.nome);
