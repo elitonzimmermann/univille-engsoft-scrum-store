@@ -1,16 +1,20 @@
 $(document).ready(async () => {
+  // ? Inicializa a página
   iniciarPagina();
-  window.produtosPromocao = await carregaProdutos(produto => produto.isPromocao);
-  console.log('window.produtosPromocao', window.produtosPromocao);
+
+  // ? Filtra da lista de produtos apenas os que estão marcados como "Em destaque"
+  window.produtosDestaque = await carregaProdutos(produto => produto.isDestaque);
+
+  mostraProdutos(window.produtosDestaque);
 });
 
-function iniciarPagina() {
+async function iniciarPagina() {
   window.carregouNav = false;
   // Carrega o componente de navbar
-  $.get('/src/components/navbar.html', data => {
-    $('#nav').html(data);
-    window.carregouNav = true;
-  });
+  const data = await getComponente('navbar');
+
+  $('#nav').html(data);
+  window.carregouNav = true;
 }
 
 function alterarNavbar(paginaAtual, tentativas = 0) {
@@ -25,7 +29,7 @@ function alterarNavbar(paginaAtual, tentativas = 0) {
     $(node).removeClass('active');
   });
   // Seta a classe de ativo para o link da página atual
-  $(`#${paginaAtual}`).addClass('active');
+  $(`#${paginaAtual}-nav-item`).addClass('active');
 }
 
 function carregaProdutos(filtro) {
@@ -41,4 +45,34 @@ function carregaProdutos(filtro) {
       return resolve(produtos);
     });
   });
+}
+
+function mostraProdutos(produtos) {
+  // ? Verifica se o elemento existe
+  if (!$('#produtos').length) return;
+
+  produtos.forEach(async produto => {
+    let html = await getComponente('produtoDestaque');
+
+    html = html.replace(/\${idProduto}/g, produto.idProduto);
+    html = html.replace(/\${nome}/g, produto.nome);
+    html = html.replace(/\${preco}/g, formataMoeda(produto.preco));
+
+    $('#produtos').append(html);
+  });
+}
+
+function getComponente(nome) {
+  return new Promise((resolve, reject) => {
+    $.get(`/src/components/${nome}.html`)
+      .then(data => resolve(data))
+      .catch(err => reject(err));
+  });
+} 
+
+function formataMoeda(valor) {
+  return Intl.NumberFormat('pt-BR', {
+    style: 'currency',
+    currency: 'BRL',
+  }).format(valor);
 }
