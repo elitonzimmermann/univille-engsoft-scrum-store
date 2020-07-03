@@ -11,10 +11,12 @@ $(document).ready(async () => {
 async function iniciarPagina() {
   window.carregouNav = false;
   // Carrega o componente de navbar
-  const data = await getComponente('navbar');
-
-  $('#nav').html(data);
+  const nav = await getComponente('navbar');
+  $('#nav').html(nav);
   window.carregouNav = true;
+
+  const footer = await getComponente('footer');
+  $('#footer').replaceWith(footer);
 }
 
 function alterarNavbar(paginaAtual, tentativas = 0) {
