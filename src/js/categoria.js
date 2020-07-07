@@ -24,5 +24,5 @@
       "idCategoria": "0006"
       "tipoCategoria" "PS2"
     }
-    
-    
+  ]
+}
