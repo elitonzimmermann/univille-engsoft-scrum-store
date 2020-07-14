@@ -9,7 +9,8 @@
     "descricao": "8200dpi",
     "tamanhos": ["pequeno", "medio", "grande"],
     "cores": ["preto", "branco", "cinza", "azul", "cammo"],
-    "isDestaque": true
+    "isDestaque": true,
+    "isPromocao": true
   },
   {
     "idProduto": "0002",
@@ -20,7 +21,8 @@
     "nome": "Mouse Oex Energy",
     "descricao": "5000dpi",
     "tamanhos": ["pequeno", "medio", "grande"],
-    "cores": ["preto", "branco", "cinza", "azul", "cammo"]
+    "cores": ["preto", "branco", "cinza", "azul", "cammo"],
+    "isPromocao": true
   },
   {
     "idProduto": "0003",
@@ -42,7 +44,8 @@
     "nome": "Mouse 1000 HP",
     "descricao": "1000dpi",
     "tamanhos": ["pequeno", "medio", "grande"],
-    "cores": ["preto", "branco", "cinza", "azul", "cammo"]
+    "cores": ["preto", "branco", "cinza", "azul", "cammo"],
+    "isPromocao": true
   },
   {
     "idProduto": "0004",
@@ -97,7 +100,8 @@
     "nome": "Mouse C3 Tech Sem Fio USB",
     "descricao": "1000dpi",
     "tamanhos": ["pequeno", "medio", "grande"],
-    "cores": ["preto", "branco", "cinza", "azul", "cammo"]
+    "cores": ["preto", "branco", "cinza", "azul", "cammo"],
+    "isPromocao": true
   },
   {
     "idProduto": "0009",
@@ -109,7 +113,8 @@
     "descricao": "1000dpi",
     "tamanhos": ["pequeno", "medio", "grande"],
     "cores": ["preto", "branco", "cinza", "azul", "cammo"],
-    "isDestaque": true
+    "isDestaque": true,
+    "isPromocao": true
   },
   {
     "idProduto": "0010",
@@ -120,7 +125,8 @@
     "nome": "Mouse �ptico Maxprint s/Fio 5 Bot�es",
     "descricao": "1600dpi",
     "tamanhos": ["pequeno", "medio", "grande"],
-    "cores": ["preto", "branco", "cinza", "azul", "cammo"]
+    "cores": ["preto", "branco", "cinza", "azul", "cammo"],
+    "isPromocao": true
   },
   {
     "idProduto": "0011",
@@ -210,7 +216,8 @@
     "descricao": "",
     "tamanhos": ["pequeno", "medio", "grande"],
     "cores": ["preto", "branco", "cinza", "azul", "cammo"],
-    "isDestaque": true
+    "isDestaque": true,
+    "isPromocao": true
   },
   {
     "idProduto": "0018",
@@ -233,8 +240,7 @@
     "nome": "Mouse Sem Fio Movitec Office",
     "descricao": "1600dpi",
     "tamanhos": ["pequeno", "medio", "grande"],
-    "cores": ["preto", "branco", "cinza", "azul", "cammo"],
-    "isPromocao": true
+    "cores": ["preto", "branco", "cinza", "azul", "cammo"]
   },
   {
     "idProduto": "0020",
@@ -245,7 +251,6 @@
     "nome": "Mouse Logitech MX Anywhere 2S Sem Fio Recarreg�vel Tecnologia Flow Unifying",
     "descricao": "1000dpi",
     "tamanhos": ["pequeno", "medio", "grande"],
-    "cores": ["preto", "branco", "cinza", "azul", "cammo"],
-    "isPromocao": true
+    "cores": ["preto", "branco", "cinza", "azul", "cammo"]
   }
 ]
