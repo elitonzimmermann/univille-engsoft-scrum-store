@@ -49,9 +49,49 @@ function carregaProdutos(filtro) {
   });
 }
 
+function carregaFiltros() {
+  return new Promise(async (resolve, reject) => {
+    window.carregouFiltros = false;
+
+    const categorias = await carregaCategorias();
+  
+    window.carregouFiltros = true;
+
+    const filtros = [
+      {
+        label: 'Mouses até R$50,00',
+        action: lista => lista.filter(i => i.preco < 50)
+      },
+      {
+        label: 'Mouses de R$50,00 até R$200,00',
+        action: lista => lista.filter(i => i.preco >= 50 && i.preco < 200)
+      },
+      {
+        label: 'Mouses superiores a R$200,00',
+        action: lista => lista.filter(i => i.preco > 200)
+      }
+    ];
+
+    return resolve([...categorias, ...filtros]);
+  });
+}
+
+function carregaCategorias() {
+  return new Promise((resolve, reject) => {
+    window.carregouCategorias = false;
+  
+    $.get('/src/database/categoria.json', data => {
+      window.carregouCategorias = true;
+      return resolve(data);
+    });
+  });
+}
+
 function mostraProdutos(produtos, componente = 'produto') {
   // ? Verifica se o elemento existe
   if (!$('#produtos').length) return;
+
+  $('#produtos').empty();
 
   produtos.forEach(async produto => {
     let html = await getComponente(componente);
@@ -61,6 +101,20 @@ function mostraProdutos(produtos, componente = 'produto') {
     html = html.replace(/\${preco}/g, formataMoeda(produto.preco));
 
     $('#produtos').append(html);
+  });
+}
+
+function mostraFiltros(filtros) {
+  // ? Verifica se o elemento existe
+  if (!$('#filtros').length) return;
+
+  filtros.forEach(async (filtro, index) => {
+    let html = await getComponente('filtro');
+
+    html = html.replace(/\${id}/g, index);
+    html = html.replace(/\${label}/g, filtro.label || filtro);
+
+    $('#filtros').append(html);
   });
 }
 
