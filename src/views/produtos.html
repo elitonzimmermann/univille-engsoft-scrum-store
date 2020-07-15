@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Loja Virtual</title>
-  <!-- <link rel="icon" type="image/png" href="./src/img/favicon-32x32.png" sizes="32x32"> -->
+  <link rel="icon" type="image/icon" href="./src/img/favicon.ico" sizes="32x32">
   <!-- <link rel="icon" type="image/png" href="./src/img/favicon-16x16.png" sizes="16x16"> -->
   <!-- BOOTSTRAP -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
@@ -16,22 +16,17 @@
 <body>
   <div id="app">
     <div id="nav"></div>
-   
     <div class="container-fluid">
       <div class="jumbotron jumbotron-fluid">
         <div class="container-fluid">
           <h1 class="display-4">Produtos:</h1>
           <hr class="my-4">
-          <div style="margin-bottom: 30px;">
-            <h3>Mouses:</h3>
-          </div>
+          <div id="filtros" class="row"></div>
           <div id="produtos" class="d-flex flex-wrap"></div>
         </div>
       </div>
     </div>
   </div>
-<!--                  
--->
   <footer id="footer"></footer>
   <!-- JQUERY -->
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"

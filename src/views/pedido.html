@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Loja Virtual - Pedido</title>
-  <!-- <link rel="icon" type="image/png" href="./src/img/favicon-32x32.png" sizes="32x32"> -->
+  <link rel="icon" type="image/icon" href="./src/img/favicon.ico" sizes="32x32">
   <!-- <link rel="icon" type="image/png" href="./src/img/favicon-16x16.png" sizes="16x16"> -->
   <!-- BOOTSTRAP -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
@@ -65,7 +65,17 @@
           </div>
         </div>
 
-        <div id="formulario-oppagamento"></div>
+        <div id="formulario-oppagamento">
+          <div class="form-group">
+            <label for="FormControlSelect">Forma de pagamento: </label>
+            <select class="form-control" id="FormControlSelect">
+              <option>Cartão de crédito</option>
+              <option>Cartão de débito</option>
+              <option>Boleto</option>
+              <option>Transferência bancária</option>
+            </select>
+          </div>
+        </div>
 
         <div id="formulario-produtos">
           <div class="form-group">
